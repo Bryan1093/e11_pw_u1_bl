@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+}
+
+form {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.msg {
+    min-height: 20px;
+    visibility: hidden;
+    padding: 10px;
+}

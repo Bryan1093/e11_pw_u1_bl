@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <script src="../js/formulario.js" defer></script>
+    <title>Prueba Unidad 1</title>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <div class="formulario">
+            <nav></nav>
+
+            <form action="#">
+                <div id="id_msg" class="msg"></div>
+                <div id="id_msg_exito" class="msg"></div>
+                <p>Nombre:</p>
+                <input type="text" id="id_nombre" placeholder="Nombre">
+
+                <p>pellido:</p>
+                <input type="text" id="id_apellido" placeholder="Apellido">
+
+                <div class="boton">
+                    <button type="button" onclick="agregarFila()">Agregar</button>
+                </div>
+
+                <table border="1" id="tablaDatos">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
